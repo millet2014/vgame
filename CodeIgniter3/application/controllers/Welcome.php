@@ -33,4 +33,8 @@ class Welcome extends CI_Controller {
 		//$this->load->view('welcome_message');
 		//OR语句的使用
 	}
+
+	public function test(){
+		echo 'this is git test';
+	}
 }
